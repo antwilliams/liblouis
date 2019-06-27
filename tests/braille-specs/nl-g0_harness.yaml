@@ -178,7 +178,6 @@ tests:
   - # permanent hoofdletterteken begint reeds bij "IK" en komt na het leesteken
     - "'IK DACHT DAT IK HIER DE ENIGE KONINGIN ZOU ZIJN'"
     - ⠄⠘⠘⠊⠅ ⠙⠁⠉⠓⠞ ⠙⠁⠞ ⠊⠅ ⠓⠊⠑⠗ ⠙⠑ ⠑⠝⠊⠛⠑ ⠅⠕⠝⠊⠝⠛⠊⠝ ⠵⠕⠥ ⠘⠵⠊⠚⠝⠄
-    - xfail: true
   - [BTW-TARIEF volledig in hoofdletters, ⠘⠃⠞⠺⠤⠘⠞⠁⠗⠊⠑⠋ ⠧⠕⠇⠇⠑⠙⠊⠛ ⠊⠝ ⠓⠕⠕⠋⠙⠇⠑⠞⠞⠑⠗⠎]
   - [BTW-tarief alleen btw in hoofdletters, ⠘⠃⠞⠺⠤⠞⠁⠗⠊⠑⠋ ⠁⠇⠇⠑⠑⠝ ⠃⠞⠺ ⠊⠝ ⠓⠕⠕⠋⠙⠇⠑⠞⠞⠑⠗⠎]
   - [VN-verdrag, ⠘⠧⠝⠤⠧⠑⠗⠙⠗⠁⠛]
@@ -253,6 +252,7 @@ tests:
     - ⠸⠸⠄⠞ ⠨⠊⠎ ⠞⠊⠚⠙ ⠕⠍ ⠝⠁⠁⠗ ⠓⠥⠊⠎ ⠞⠑ ⠸⠛⠁⠁⠝⠲
     - typeform:
         bold: '++++++++++++++++++++++++++++++++'
+      xfail: true
   - - waterplant
     - ⠸⠺⠁⠞⠑⠗⠠⠏⠇⠁⠝⠞
     - typeform:
@@ -320,13 +320,11 @@ tests:
     - ⠄⠸⠸⠍⠑⠑⠗ ⠙⠁⠝ ⠙⠗⠊⠑ ⠺⠕⠕⠗⠙⠑⠝ ⠊⠝ ⠸⠉⠥⠗⠎⠊⠑⠋⠄
     - typeform:
         italic: '++++++++++++++++++++++++++++++++++'
-      xfail: true
   - # ... ook indien de leestekens niet cursief zijn
     - "'meer dan drie woorden in cursief'"
     - ⠄⠸⠸⠍⠑⠑⠗ ⠙⠁⠝ ⠙⠗⠊⠑ ⠺⠕⠕⠗⠙⠑⠝ ⠊⠝ ⠸⠉⠥⠗⠎⠊⠑⠋⠄
     - typeform:
         italic: ' ++++++++++++++++++++++++++++++++ '
-      xfail: true
   # volgorde van hoofdletterteken en drukwijzigingsteken (drukwijzigingsteken eerst)
   - - CURSIEF
     - ⠸⠘⠉⠥⠗⠎⠊⠑⠋
@@ -340,7 +338,6 @@ tests:
     - ⠄⠸⠸⠘⠘⠊⠅ ⠙⠁⠉⠓⠞ ⠙⠁⠞ ⠊⠅ ⠓⠊⠑⠗ ⠙⠑ ⠑⠝⠊⠛⠑ ⠅⠕⠝⠊⠝⠛⠊⠝ ⠵⠕⠥ ⠸⠘⠵⠊⠚⠝⠲⠄
     - typeform:
         italic: ' ++++++++++++++++++++++++++++++++++++++++++++++++ '
-      xfail: true
 
   # Misc
   - - Not part of the braille standard
